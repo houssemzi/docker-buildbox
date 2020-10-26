@@ -6,6 +6,8 @@ Versions
 * Upgrade terraform to 0.13.4 and terragrunt to 0.25.3 and add jq to image
 * fix aws image dependencies with new pip resolver feature `--use-feature=2020-resolver`
 * fix smartpy version in tezosqa image
+* Upgrading ansible 2.9 to 2.9.13
+* Creating an ansible 2.10 image
 
 2020-09-30
 -----------

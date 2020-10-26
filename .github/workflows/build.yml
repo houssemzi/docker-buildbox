@@ -18,6 +18,7 @@ jobs:
       matrix:
         include:
           - { image: ansible, version: 2.9 }
+          - { image: ansible, version: "2.10" }
           - { image: aws, version: 1 }
           - { image: awslnx-systemd, version: 2 }
           - { image: azure, version: 2 }
